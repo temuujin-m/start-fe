@@ -8,7 +8,14 @@
 //    console.log('Fetch Error :-S', err);
 //  });
 
+function getFetch(url, callback){
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => console.log(data));
+}
 
-fetch('data.json')
-    .then((response) => response.json())
-    .then((data) => console.log(data));
+getFetch('data.json', () => console.log(data));
+
+//fetch('data.json')
+//    .then((response) => response.json())
+//    .then((data) => console.log(data));
