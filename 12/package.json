@@ -5,6 +5,8 @@
   "main": "main.js",
   "private": "true",
   "scripts": {
+    "serve": "serve",
+    "watch": "webpack --watch",
     "build": "webpack"
   },
   "keywords": [],
