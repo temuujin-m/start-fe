@@ -5,7 +5,7 @@
   "main": "main.js",
   "private": "true",
   "scripts": {
-    "serve": "serve",
+    "start": "serve",
     "watch": "webpack --watch",
     "build": "webpack"
   },
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "serve": "^13.0.2",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
   }
