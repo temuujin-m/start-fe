@@ -4,3 +4,8 @@ function sum(a, b) {
 }
   
 export default sum;
+
+// sum.js
+export function sum2(a, b) {
+    return a + b;
+  }
